@@ -1,0 +1,18 @@
+package com.TrilectUs.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+
+public class rcontroller {
+	
+	 @GetMapping("/")
+	 public String Display () {
+		 return "Welcome to SpringBoot";
+		 
+	 }
+	
+
+}
